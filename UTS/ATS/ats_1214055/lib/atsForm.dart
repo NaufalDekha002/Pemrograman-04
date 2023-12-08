@@ -280,7 +280,7 @@ class _MyInputForm1State extends State<MyInputForm1> {
                     child: Row(
                       children: [
                         SizedBox(
-                          width: 450,
+                          width: 340,
                           height: 100,
                           child: ElevatedButton(
                             onPressed: _selectColor,
@@ -296,7 +296,7 @@ class _MyInputForm1State extends State<MyInputForm1> {
                       ],
                     )),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(4.0),
                   child: Center(
                     child: ElevatedButton(
                       onPressed: _selectColor,
